@@ -294,6 +294,20 @@ body{
     padding-top: 70px !important;
   }
 
+  .main {
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 0 !important;
+}
+.profile {
+  padding: 0 !important;
+  gap: 0 !important;
+}
+.profile img {
+  width: 220px !important;
+  height: 220px !important;
+}
+
   #home h1, h1 {
     font-size: 28px !important;
     line-height: 1.3;
