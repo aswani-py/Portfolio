@@ -290,6 +290,8 @@ body{
     align-items: center !important;
     padding: 20px !important;
     height: auto !important;
+    min-height: auto !important;
+    padding-top: 110px !important;
   }
 
   #home h1, h1 {
