@@ -85,7 +85,7 @@ body{
   height: 300px;
   border-radius: 50%;
   object-fit: cover;
-  border: 4px solid;
+  border: 4px solid white;
   
 }
 
