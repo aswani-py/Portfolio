@@ -469,3 +469,74 @@ body{
     font-size: 13px !important;
   }
 }
+
+
+/* ===== NAVBAR - NINTE CODE NU ===== */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #111;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.navbar h1{
+  color: white;
+  font-size: 24px;
+  margin: 0;
+}
+.navbar .nav{
+  display: flex;
+  gap: 25px;
+}
+.navbar .nav a{
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* ===== HOME + PROFILE PIC - NINTE CODE NU ===== */
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+.profile img{
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #ff4d6d;
+}
+
+/* ===== PHONE IL - 768px ===== */
+@media (max-width: 768px){
+  .navbar{
+    flex-direction: column !important;
+    gap: 12px !important;
+    padding: 12px 10px !important;
+  }
+  .navbar h1{
+    font-size: 22px !important;
+    text-align: center !important;
+  }
+  .navbar .nav{
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 8px 14px !important;
+  }
+  .navbar .nav a{
+    font-size: 14px !important;
+  }
+  .main{
+    flex-direction: column !important;
+    padding: 20px 15px !important;
+  }
+  .profile img{
+    width: 220px !important;
+    height: 220px !important;
+  }
+}
