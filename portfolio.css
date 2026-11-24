@@ -540,3 +540,15 @@ body{
     height: 220px !important;
   }
 }
+
+/* ===== EXPERIENCE BOX RIGHT SIDE ULLILEKKU ===== */
+#experience{
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  box-sizing: border-box !important;
+}
+#experience > div{
+  max-width: 1100px !important;
+  margin: 0 auto !important;
+  box-sizing: border-box !important;
+}
