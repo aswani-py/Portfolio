@@ -333,6 +333,15 @@ body{
   line-height: 1.5 !important;
 }
 
+.main {
+  height: auto !important;
+  justify-content: center !important;
+  gap: 20px !important;
+}
+.profile {
+  margin-bottom: 0 !important;
+}
+
   #home h1, h1 {
     font-size: 28px !important;
     line-height: 1.3;
