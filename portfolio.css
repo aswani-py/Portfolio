@@ -552,3 +552,14 @@ body{
   margin: 0 auto !important;
   box-sizing: border-box !important;
 }
+
+/* ===== EXPERIENCE BOX VALUTHU + GAP ===== */
+#experience{
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+#experience > div{
+  max-width: 1350px !important;
+  width: 95% !important;
+  margin: 0 auto !important;
+}
