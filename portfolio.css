@@ -453,3 +453,19 @@ body{
     padding: 4px 2px !important;
   }
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    overflow: hidden !important;
+  }
+  .navbar .nav {
+    padding: 0 10px !important;
+    box-sizing: border-box !important;
+    gap: 8px 10px !important;
+  }
+  .navbar .nav a {
+    font-size: 13px !important;
+  }
+}
