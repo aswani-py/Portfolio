@@ -1,4 +1,4 @@
-body{
+/* body{
     background-color: rgb(30, 30, 34);
     margin: 0px;
     padding: 0px;
@@ -251,16 +251,26 @@ body{
     display: flex;
     flex-direction: column;
     gap: 14px;
-}
+} */
 
 
 
 
 
-@media (max-width: 768px) {
+
+
+
+
+
+
+
+
+
+
+/* @media (max-width: 768px) { */
 
   /* --- NAVBAR --- */
-  .navbar {
+  /* .navbar {
     padding: 12px 15px;
   }
   .logo {
@@ -271,10 +281,10 @@ body{
   }
   .nav-links a {
     font-size: 13px;
-  }
+  } */
 
   /* --- HOME --- */
-  #home {
+  /* #home {
     min-height: auto !important;
     height: auto !important;
     padding: 20px 15px 40px 15px;
@@ -327,19 +337,19 @@ body{
   .btn {
     padding: 10px 22px;
     font-size: 15px;
-  }
+  } */
 
   /* --- ALL SECTIONS --- */
-  section {
+  /* section {
     padding: 40px 15px;
   }
 
   section h2 {
     font-size: 26px;
-  }
+  } */
 
   /* --- SKILLS / PROJECTS --- */
-  .skills-list, .projects {
+  /* .skills-list, .projects {
     flex-direction: column;
     align-items: center;
   }
@@ -347,10 +357,10 @@ body{
   .skill, .project-card {
     width: 100%;
     max-width: 100%;
-  }
+  } */
 
   /* --- CONTACT --- */
-  .contact {
+  /* .contact {
     text-align: center;
   }
 }
@@ -563,4 +573,528 @@ body{
   max-width: 1350px !important;
   width: 95% !important;
   margin: 0 auto !important;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================
+   GENERAL STYLES
+============================== */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(30, 30, 34);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+section {
+    scroll-margin-top: 90px;
+}
+
+
+/* ==============================
+   NAVBAR
+============================== */
+
+.navbar {
+    width: 100%;
+    min-height: 80px;
+    background-color: rgb(36, 36, 42);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar h1 {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+}
+
+
+/* ==============================
+   HOME SECTION
+============================== */
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 90px;
+}
+
+.profile img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 10px;
+    color: white;
+    width: 55%;
+    margin-left: auto;
+    padding: 10px 70px;
+    margin-top: 60px;
+}
+
+.container h1 {
+    padding: 0;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.container h1 span {
+    color: rgb(251, 191, 36);
+}
+
+.container p {
+    padding: 0;
+    font-size: 20px;
+    margin-top: 15px;
+    line-height: 1.6;
+    max-width: 850px;
+}
+
+
+/* ==============================
+   SKILLS SECTION
+============================== */
+
+.skills {
+    color: white;
+    text-align: left;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.skills h2 span {
+    color: aqua;
+}
+
+
+/* ==============================
+   PROJECT SECTION
+============================== */
+
+.project-box {
+    margin: 20px;
+    margin-bottom: 30px;
+    padding: 35px;
+    background-color: rgb(28, 28, 61);
+    border: 2px solid;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.project-box h1 {
+    color: white;
+    text-align: center;
+}
+
+.project-box h3 {
+    color: rgb(49, 154, 49);
+    font-size: 25px;
+    text-align: left;
+}
+
+.project-box h4 {
+    color: white;
+    margin-top: 20px;
+}
+
+.project-box .description {
+    color: #ddd;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.project-box ul {
+    color: #ddd;
+    line-height: 2;
+    padding-left: 25px;
+}
+
+.project-box .tech {
+    color: #75c8ff;
+    line-height: 1.8;
+}
+
+
+/* ==============================
+   EXPERIENCE SECTION
+============================== */
+
+#experience {
+    padding: 20px;
+}
+
+#experience > .experience-box {
+    max-width: 1350px;
+    width: 95%;
+    margin: 10px auto;
+}
+
+.experience-box {
+    background: #292943;
+    border: 2px solid #77778a;
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.experience-box h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.experience-box h3 {
+    color: #55c878;
+}
+
+.experience-box h4 {
+    color: white;
+}
+
+.experience-box p,
+.experience-box li {
+    color: #ddd;
+    line-height: 1.8;
+}
+
+
+/* ==============================
+   EDUCATION SECTION
+============================== */
+
+.education {
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.education-box {
+    background: #292943;
+    border: 2px solid #77778a;
+    border-radius: 20px;
+    padding: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.education-box h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.education-box h3 {
+    color: #55c878;
+}
+
+.education-box h4,
+.education-box p {
+    color: white;
+    line-height: 1.8;
+}
+
+
+/* ==============================
+   CONTACT SECTION
+============================== */
+
+.contact-box {
+    width: fit-content;
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px 30px;
+    background-color: rgb(28, 28, 61);
+    border: 2px solid;
+    border-radius: 15px;
+}
+
+.contact-box h2 {
+    color: white;
+    text-align: center;
+}
+
+.contact-box a {
+    margin: 0;
+    font-size: 18px;
+    color: white;
+}
+
+.contact-box ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+
+/* ==============================
+   TABLET AND MOBILE RESPONSIVE
+============================== */
+
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 12px 10px;
+        height: auto;
+    }
+
+    .navbar h1 {
+        font-size: 22px;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px 10px;
+        width: 100%;
+    }
+
+    .nav a {
+        font-size: 13px;
+        padding: 4px 2px;
+        white-space: nowrap;
+    }
+
+
+    /* HOME */
+
+    #home {
+        min-height: auto;
+        height: auto;
+        padding: 20px 15px 40px;
+    }
+
+    #home .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 12px;
+        padding: 20px 15px;
+    }
+
+    #home .profile {
+        margin: 0;
+        padding: 0;
+    }
+
+    .profile img {
+        width: 220px;
+        height: 220px;
+        border-width: 4px;
+    }
+
+    #home .container {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 0 5px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container h1 {
+        font-size: 34px;
+        line-height: 1.2;
+        margin-top: 20px;
+    }
+
+    /* .container h2 {
+        font-size: 19px;
+        line-height: 1.4;
+    } */
+
+    .container p {
+        font-size: 15px;
+        line-height: 1.6;
+        width: 100%;
+        max-width: 100%;
+        padding: 0 10px;
+        overflow-wrap: break-word;
+    }
+
+
+    /* SKILLS */
+
+    .skills {
+        text-align: center;
+        padding: 15px;
+    }
+
+    .skills h2 {
+        font-size: 20px;
+        line-height: 1.6;
+    }
+
+
+    /* PROJECTS */
+
+    .project-box {
+        margin: 15px 0;
+        padding: 20px;
+    }
+
+    .project-box h1 {
+        font-size: 25px;
+    }
+
+    .project-box h3 {
+        font-size: 22px;
+    }
+
+    .project-box .description {
+        text-align: left;
+    }
+
+
+    /* EXPERIENCE */
+
+    #experience {
+        padding: 20px 10px;
+    }
+
+    #experience > .experience-box {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .experience-box {
+        padding: 20px;
+        margin: 10px auto;
+    }
+
+
+    /* EDUCATION */
+
+    .education {
+        padding: 20px 10px;
+    }
+
+    .education-box {
+        padding: 20px;
+    }
+
+
+    /* CONTACT */
+
+    .contact-box {
+        max-width: 95%;
+        padding: 20px;
+    }
+
+    .contact-box a {
+        font-size: 15px;
+        overflow-wrap: anywhere;
+    }
+
+}
+
+
+/* ==============================
+   SMALL MOBILE
+============================== */
+
+@media (max-width: 400px) {
+
+    .navbar h1 {
+        font-size: 20px;
+    }
+
+    .nav {
+        gap: 8px;
+    }
+
+    .nav a {
+        font-size: 12px;
+    }
+
+    .profile img {
+        width: 190px;
+        height: 190px;
+    }
+
+    .container h1 {
+        font-size: 29px;
+    }
+
+    .container p {
+        font-size: 15px;
+    }
+
+    .skills h2 {
+        font-size: 18px;
+    }
+
 }
