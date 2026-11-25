@@ -192,9 +192,9 @@ section {
     padding: 20px;
 }
 
-#experience > .experience-box {
-    max-width: 1350px;
-    width: 95%;
+#experience  .experience-box {
+    max-width: 1500px;
+    width: 98%;
     margin: 10px auto;
 }
 
@@ -379,10 +379,7 @@ section {
         margin-top: 20px;
     }
 
-    /* .container h2 {
-        font-size: 19px;
-        line-height: 1.4;
-    } */
+   
 
     .container p {
         font-size: 15px;
@@ -433,7 +430,7 @@ section {
         padding: 20px 10px;
     }
 
-    #experience > .experience-box {
+    #experience  .experience-box {
         width: 100%;
         max-width: 100%;
     }
