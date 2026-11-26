@@ -195,7 +195,7 @@ section {
     padding: 35px;
     background-color: rgb(53, 59, 80);
     border: 2px solid;
-    border-radius: 15px;
+    border-radius: 20px;
     text-align: left;
 }
 
@@ -251,7 +251,7 @@ section {
 
 .experience-box {
     background-color: rgb(53, 59, 80);
-    border: 2px solid #77778a;
+    border: 2px solid;
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
@@ -291,12 +291,13 @@ section {
 
 .education-box {
     background-color: rgb(53, 59, 80);
-    border: 2px solid #77778a;
-    border-radius: 20px;
+    border: 2px solid;
+    border-radius: 20px ;
     padding: 30px;
     width: 100%;
     
 }
+
 
 .education-box h2 {
     color: white;
@@ -330,7 +331,7 @@ section {
     padding: 30px;
     background-color: rgb(53, 59, 80);
     border: 2px solid;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 .certificate-box h2 {
@@ -359,7 +360,7 @@ section {
     padding: 20px 30px;
     background-color: rgb(53, 59, 80);
     border: 2px solid;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 .contact-box h2 {
