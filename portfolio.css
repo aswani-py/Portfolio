@@ -48,18 +48,67 @@ section {
     margin: 0;
 }
 
-.nav {
-    display: flex;
-    align-items: center;
-    gap: 20px;
+
+
+/* RESUME DOWNLOAD BUTTON */
+
+.resume-btn {
+    background-color: rgb(251, 191, 36);
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 20px;
 }
+
+.resume-btn:hover {
+    background-color: orange;
+}
+
+
+/* HAMBURGER MENU */
+
 
 .nav a {
     text-decoration: none;
     color: white;
     padding: 5px;
-    font-size: 16px;
+    font-size: 15px;
+    width: 100%;
 }
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: block;
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+}
+
+.nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 220px;
+    background-color: rgb(36, 36, 42);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    gap: 15px;
+}
+
+#menu-toggle:checked ~ .nav {
+    display: flex;
+}
+
+
 
 
 /* ==============================
@@ -153,6 +202,8 @@ section {
 .project-box h1 {
     color: white;
     text-align: center;
+    border-bottom: 2px solid #77778a;
+      padding-bottom: 20px;
 }
 
 .project-box h3 {
@@ -210,6 +261,8 @@ section {
     color: white;
     text-align: center;
     margin-bottom: 25px;
+    border-bottom: 2px solid #77778a;
+      padding-bottom: 15px;
 }
 
 .experience-box h3 {
@@ -242,13 +295,15 @@ section {
     border-radius: 20px;
     padding: 30px;
     width: 100%;
-    box-sizing: border-box;
+    
 }
 
 .education-box h2 {
     color: white;
     text-align: center;
     margin-bottom: 25px;
+    border-bottom: 2px solid #77778a;
+    padding-bottom: 15px;
 }
 
 .education-box h3 {
@@ -259,6 +314,37 @@ section {
 .education-box p {
     color: white;
     line-height: 1.8;
+}
+
+
+
+
+
+/* ==============================
+   CERTIFICATES SECTION
+============================== */
+
+.certificate-box {
+    margin: 20px;
+    margin-bottom: 30px;
+    padding: 30px;
+    background-color: rgb(28, 28, 61);
+    border: 2px solid;
+    border-radius: 15px;
+}
+
+.certificate-box h2 {
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid #77778a;
+    padding-bottom: 15px;
+}
+
+.certificate-box ul {
+    color: #ddd;
+    line-height: 2;
+    padding-left: 25px;
+    font-size: 18px;
 }
 
 
@@ -279,6 +365,8 @@ section {
 .contact-box h2 {
     color: white;
     text-align: center;
+    border-bottom: 2px solid #77778a;
+      padding-bottom: 15px;
 }
 
 .contact-box a {
@@ -302,38 +390,32 @@ section {
 
 @media (max-width: 768px) {
 
-    /* NAVBAR */
+    
+    
 
-    .navbar {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-        padding: 12px 10px;
-        height: auto;
-    }
+/* MOBILE NAVBAR */
 
-    .navbar h1 {
-        font-size: 22px;
-        text-align: center;
-        width: 100%;
-        margin: 0;
-    }
+.navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    position: sticky;
+    top: 0;
+}
 
-    .nav {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 8px 10px;
-        width: 100%;
-    }
 
-    .nav a {
-        font-size: 13px;
-        padding: 4px 2px;
-        white-space: nowrap;
-    }
+/* Certificates mobile */
+
+.certificate-box {
+    margin: 15px 10px;
+    padding: 20px;
+}
+
+.certificate-box ul {
+    font-size: 15px;
+    line-height: 1.8;
+}
 
 
     /* HOME */
@@ -477,13 +559,6 @@ section {
         font-size: 20px;
     }
 
-    .nav {
-        gap: 8px;
-    }
-
-    .nav a {
-        font-size: 12px;
-    }
 
     .profile img {
         width: 190px;
@@ -503,3 +578,4 @@ section {
     }
 
 }
+
