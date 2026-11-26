@@ -193,7 +193,7 @@ section {
     margin: 20px;
     margin-bottom: 30px;
     padding: 35px;
-    background-color: rgb(28, 28, 61);
+    background-color: rgb(53, 59, 80);
     border: 2px solid;
     border-radius: 15px;
     text-align: left;
@@ -250,7 +250,7 @@ section {
 }
 
 .experience-box {
-    background: #292943;
+    background-color: rgb(53, 59, 80);
     border: 2px solid #77778a;
     border-radius: 20px;
     padding: 30px;
@@ -290,7 +290,7 @@ section {
 }
 
 .education-box {
-    background: #292943;
+    background-color: rgb(53, 59, 80);
     border: 2px solid #77778a;
     border-radius: 20px;
     padding: 30px;
@@ -328,7 +328,7 @@ section {
     margin: 20px;
     margin-bottom: 30px;
     padding: 30px;
-    background-color: rgb(28, 28, 61);
+    background-color: rgb(53, 59, 80);
     border: 2px solid;
     border-radius: 15px;
 }
@@ -357,7 +357,7 @@ section {
     max-width: 90%;
     margin: 20px auto;
     padding: 20px 30px;
-    background-color: rgb(28, 28, 61);
+    background-color: rgb(53, 59, 80);
     border: 2px solid;
     border-radius: 15px;
 }
@@ -366,7 +366,7 @@ section {
     color: white;
     text-align: center;
     border-bottom: 2px solid #77778a;
-      padding-bottom: 15px;
+    padding-bottom: 15px;
 }
 
 .contact-box a {
@@ -578,4 +578,3 @@ section {
     }
 
 }
-
